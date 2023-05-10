@@ -8,6 +8,7 @@ header {background-color: #8B54FF;}
 
 .head
 .lista-menu{display: none}
+.container__botao:checked ~.lista-menu{display:block}
 
 
 
