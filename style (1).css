@@ -12,7 +12,7 @@ justify-content: space-around;
 align-items: center;
 padding: 24px 0;
 }
-.lista-menu{display: none}
+.lista-menu{display:24px}
 .container__botao:checked ~.lista-menu{display:block}
 
 .estudante-todos{
