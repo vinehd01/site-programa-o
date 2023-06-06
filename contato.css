@@ -8,3 +8,9 @@
 }
 
 .contato__titulo{font-size: 18px; font-weight: 500;}
+.contato__texto{
+    font-weight:300;
+    margin: 1em 0
+}
+
+.contato__email{border:1px solid var(--azul);}
