@@ -2,7 +2,8 @@
 .contato{background-color: var(--branco);
 padding: 1em;
 }
-.contato__titulo{
+.contato__titulo,
+.contato__texto {
     var(--azul-degrade);
     -webkit-background-clip: text;
     -wenkit-text-fill-color: transparent;
@@ -10,9 +11,13 @@ padding: 1em;
 }
 
 .contato__titulo{font-size: 18px; font-weight: 500;}
+
+
 .contato__texto{
     font-weight:300;
     margin: 1em 0
 }
 
-.contato__email{border:1px solid var(--azul);}
+.contato__email{
+    padding: 1em;
+    border:1px solid var(--azul);}
