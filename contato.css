@@ -1,3 +1,10 @@
 @import url(“styles/contato.css”);
 .contato{background-color: var(--branco);}
-.contato__titulo{var(--azul-degrade);}
+.contato__titulo{
+    var(--azul-degrade);
+    -webkit-background-clip: text;
+    -wenkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.contato__titulo{font-size: 18px; font-weight: 500;}
