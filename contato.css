@@ -1,5 +1,7 @@
 @import url(“styles/contato.css”);
-.contato{background-color: var(--branco);}
+.contato{background-color: var(--branco);
+padding: 1em;
+}
 .contato__titulo{
     var(--azul-degrade);
     -webkit-background-clip: text;
