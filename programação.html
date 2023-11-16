@@ -169,8 +169,8 @@
     funciona, e se criou uma condição para certos tipos de botão.
     As condições adicionadas foram: “If”; “else”; e “&amp;&amp;”
     
-    2. Na aula 08 Repetição otimizada com For é realizada a mudança do while
-    para for. Porque? o que mudou? Explique.
+    <h1>2. Na aula 08 Repetição otimizada com For é realizada a mudança do while
+        para for. Porque? o que mudou? Explique.</h1>
     
     A estrutura de repetição while depende de uma condição ser verdadeira ou falsa para
     determinar se aquela repetição, essa rotina que está dentro das chaves do while vai ser
@@ -182,16 +182,256 @@
     condição for verdade, ele vai repetir essa rotina, porém a vantagem em relação ao while é
     que o contador pode ser declarado ainda dentro dos parênteses do for.
     
-    3. Na aula 09 Melhorando o código do Alura quais foram as mudanças
-    realizadas e quais as condições adicionadas?
+    <h1>3. Na aula 09 Melhorando o código do Alura quais foram as mudanças
+        realizadas e quais as condições adicionadas?</h1>
+
     Foi reduzida a quantidade de if’s, usando o operador lógico ‘&amp;’ (‘e’ em português), o else
     também foi adicionado como uma estrutura conjunta se a condição for falsa.
     O else significa “senão” e ele precisa ser invocado imediatamente depois de um if, que vai
     ser a função que vai ser executada caso esta condição que seja falsa. E então se o
     elemento não for nulo e o elemento for diferente do áudio, irá cair no else.
-    
     Pesquise e responda o que é e de um exemplo de como usar:
-    Diminuir (--) O operador decremento ( --) decrementa (subtrai um) seu
+    Diminuir (--) O operador decremento ( --) decrementa (s
+    <h1>Pesquise e responda o que é e de um exemplo de como usar:</h1>
+
+
+        <h1>Diminuir (--)</h1> O operador decremento ( --) decrementa (subtrai um) seu
+        operando e retorna o valor antes ou depois do decremento,
+dependendo de onde o operador é colocado.
+let x = 3;
+const y = x--;
+// x is 2; y is 3
+let x2 = 3n;
+const y2 = x2--;
+// x2 is 2n; y2 i
+
+<h1>Atribuição de
+    divisão (/=)
+    </h1>
+O operador de atribuição de divisão ( /=) realiza a divisão
+nos dois operandos e atribui o resultado ao operando
+esquerdo.
+let bar = 5;
+bar /= 2; // 2.5
+bar /= 2; // 1.25
+bar /= 0; // Infinity
+bar /= &quot;foo&quot;; // NaN
+let foo = 3n;
+foo /= 2n; // 1n
+foo /= 2n; // 0n
+
+<h1>Igualdade (==)</h1> 
+O operador igualdade ( ==) verifica se seus dois operandos
+são iguais, retornando um resultado booleano. Ao contrário
+do operador de igualdade estrita , ele tenta converter e
+comparar operandos de tipos diferentes.
+Ex:
+console.log(1 == 1);
+// Expected output: true
+console.log(&#39;hello&#39; == &#39;hello&#39;);
+// Expected output: true
+console.log(&#39;1&#39; == 1);
+// Expected output: true
+console.log(0 == false);
+// Expected output: true
+
+<h1>iogualdade
+    estrita (===)</h1>
+
+Retorna verdadeiro caso os operandos sejam iguais e do
+mesmo tipo. Veja também Object.is e igualdade em JS (en-
+US).
+Ex:
+3 === var1
+
+<h1>Desigualdade
+    estrita (!==)</h1>
+
+Retorna verdadeiro caso os operandos não sejam iguais
+e/ou não sejam do mesmo tipo.
+Ex:
+var1 !== &quot;3&quot; 3 !==
+
+<h1>Subtração (-)</h1>
+ Operador uniário. Retorna a negação de seu operando.
+
+Ex:
+Se x é 3, então -x
+retorna -3.
+
+<h1>Atribuição de
+    subtração (-=)</h1>
+
+O operador de atribuição de subtração (-=) realiza a subtração
+nos dois operandos e atribui o resultado ao operando esquerdo.
+let a = 2;
+console.log((a -= 3));
+// Expected output: -1
+console.log((a -= &#39;Hello&#39;));
+// Expected output: NaN
+
+<h1>Exponenciação
+    (**)
+     </h1>
+
+O operador de exponenciação** ( ) eleva o primeiro operando
+à potência do segundo operando.
+let x = 5;
+let z = x ** 2;
+
+<h1>Atribuição de
+    exponenciação
+    (**=) </h1>
+
+O operador de atribuição de exponenciação ( **=) realiza a
+exponenciação nos dois operandos e atribui o resultado ao
+operando esquerdo.
+let a = 3;
+console.log((a **= 2));
+// Expected output: 9
+console.log((a **= 0));
+// Expected output: 1
+console.log((a **= &#39;hello&#39;));
+// Expected output: NaN
+
+Maior que (&gt;) Retorna verdadeiro caso o operando da esquerda seja
+
+maior que o da direita.
+Ex:
+var2 &gt; var1 &quot;12&quot; &gt; 2
+
+Maior ou igual
+(&gt;=)
+
+Retorna verdadeiro caso o operando da esquerda seja
+maior ou igual ao da direita.
+Ex:
+var2 &gt;= var1 var1 &gt;= 3
+
+<h1>Desigualdade
+    (!=) </h1>D
+
+O operador de desigualdade ( !=) verifica se seus dois
+operandos não são iguais, retornando um resultado
+booleano. Ao contrário do operador de desigualdade estrita
+, ele tenta converter e comparar operandos de tipos
+diferentes.
+Ex:
+console.log(1 != 1);
+// Expected output: false
+console.log(&#39;hello&#39; != &#39;hello&#39;);
+// Expected output: false
+console.log(&#39;1&#39; != 1);
+// Expected output: false
+console.log(0 != false);
+// Expected output: false
+
+<h1>Menos que (<) </h1>
+ Retorna verdadeiro caso o operando da esquerda seja
+menor que o da direita.
+Ex:
+var1 &lt; var2 &quot;12&quot; &lt; &quot;2&quot;
+
+<h1>menor ou igual
+    (<=)</h1>
+
+
+Retorna verdadeiro caso o operando da esquerda seja
+menor ou igual ao da direita.
+Ex:
+var1 &lt;= var2 var2 &lt;= 5
+
+<h1>E lógico (&&)</h1>
+
+O operador de atribuição AND lógico é usado entre
+dois valores. Se o primeiro valor for verdadeiro, o
+segundo valor será atribuído.
+
+let x = 10;
+x &amp;&amp;= 5;
+
+<h1>>Atribuição AND
+    lógica (&&) </h1>
+    
+O operador de atribuição AND lógico é usado entre dois
+
+valores.
+Se o primeiro valor for verdadeiro, o segundo valor será
+atribuído.
+let x = 10;
+x &amp;&amp;= 5;
+
+<h1>Lógico NÃO (!)</h1>
+ Sempre que colocamos esse operador perto de alguma
+condição, ele altera o valor dela de verdadeiro para falso
+(true para false) ou o contrário, de falso para verdadeiro.
+if(true){
+    [esse codigo sempre executa];
+    }
+    if(!true){
+    [esse codigo nunca executa];
+    }
+    
+    <h1>OU lógico (||)</h1>
+    
+    Unimos mais de uma expressão, usando o operador &amp;&amp;. Se a
+    condição1 OU condição2 for verdadeira, todo o teste
+    condicional será verdadeiro.
+    Condição 1 Condição 2 Resultado
+    Verdade Verdade Verdade
+    Verdade Falso Verdade
+    Falso Verdade Verdade
+    Falso Falso Falso
+    const a = true;
+    const b = false;
+    console.log(a || b); // true
+    
+    <h1>Atribuição OR
+        lógica (||=) </h1>
+         O operador de atribuição OR lógico é usado entre dois
+    valores. Se o primeiro valor for falso, o segundo valor será
+    atribuído.
+    let x = 10;
+    x ||= 5;
+    
+    <h1> Multiplicação
+        (*)</h1>
+    
+    Realizar a operação matemática de multiplicação
+    let x = 5;
+    let y = 2;
+    let z = x * y;
+    
+    <h1>Atribuição de
+        multiplicação
+        (*=)</h1>
+    
+    O Operador de Atribuição de Multiplicação multiplica
+    uma variável.
+    let x = 10;
+    x *= 5;
+    
+    <h1>Restante (%)</h1>
+     O operador de módulo% ( ) retorna o resto da divisão.
+    
+    let x = 5;
+    let y = 2;
+    let z = x % y;
+    
+    <h1>Atribuição
+        restante (%=)</h1>
+    
+    O operador de atribuição de restante (%=) executa o resto
+    nos dois operandos e atribui o resultado ao operando
+    esquerdo.
+    let a = 3;
+console.log((a %= 2));
+// Expected output: 1
+console.log((a %= 0));
+// Expected output: NaN
+console.log((a %= &#39;hello&#39;));
+// Expected output: NaN
+
 
 
 
@@ -208,5 +448,5 @@
 
 
 </footer>
-<script src="main.js"></script>
+
 
